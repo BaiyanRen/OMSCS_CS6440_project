@@ -1,0 +1,13 @@
+prefix=/Users/baiyanren/Documents/Work/OMSCS/CS_6440_Health_informatics/Project/Team-12-Connected-Patient-Experience/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

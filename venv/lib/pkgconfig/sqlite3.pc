@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/baiyanren/Documents/Work/OMSCS/CS_6440_Health_informatics/Project/Team-12-Connected-Patient-Experience/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.37.2
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}

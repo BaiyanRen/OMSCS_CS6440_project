@@ -1,0 +1,11 @@
+prefix=/Users/baiyanren/Documents/Work/OMSCS/CS_6440_Health_informatics/Project/Team-12-Connected-Patient-Experience/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/baiyanren/Documents/Work/OMSCS/CS_6440_Health_informatics/Project/Team-12-Connected-Patient-Experience/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
